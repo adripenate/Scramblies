@@ -26,12 +26,16 @@ public class ScrambliesShould {
         public static boolean scramble(String pieces, String goal) {
             if (areNotEnoughPieces(pieces, goal)) return false;
             int pieceSelected = 0;
-            while (!goal.isEmpty() && pieceSelected<pieces.length()){
+            while (!goalHasLetters(goal) && pieceSelected<pieces.length()){
                 if (goal.contains(pieces.charAt(pieceSelected) + "")){
                     goal = goal.replaceFirst(pieces.charAt(pieceSelected)+"", "");
                 }
                 pieceSelected++;
             }
+            return goalHasLetters(goal);
+        }
+
+        private static boolean goalHasLetters(String goal) {
             return goal.isEmpty();
         }
 
