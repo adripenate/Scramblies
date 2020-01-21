@@ -20,7 +20,7 @@ public class ScrambliesShould {
 
     private static class Scramblies {
         public static boolean scramble(String pieces, String goal) {
-            if (pieces.isEmpty()) return false;
+            if (pieces.length() < goal.length()) return false;
             return true;
         }
     }
