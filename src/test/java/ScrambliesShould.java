@@ -8,6 +8,11 @@ public class ScrambliesShould {
         assertThat(Scramblies.scramble("", "hello")).isFalse();
     }
 
+    @Test
+    public void rearrange_when_there_are_letters() {
+        assertThat(Scramblies.scramble("holle", "hello")).isTrue();
+    }
+
     private static class Scramblies {
         public static boolean scramble(String pieces, String goal) {
             return false;
