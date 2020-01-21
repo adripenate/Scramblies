@@ -24,11 +24,15 @@ public class ScrambliesShould {
             int pieceSelected = 0;
             while (!goalHasLetters(goal) && areUncheckedPieces(pieces, pieceSelected)){
                 if (containsSelectedLetter(goal, pieces, pieceSelected)){
-                    goal = goal.replaceFirst(pieces.charAt(pieceSelected)+"", "");
+                    goal = removeLetterFromGoal(pieces, goal, pieceSelected);
                 }
                 pieceSelected++;
             }
             return goalHasLetters(goal);
+        }
+
+        private static String removeLetterFromGoal(String pieces, String goal, int pieceSelected) {
+            return goal.replaceFirst(pieces.charAt(pieceSelected)+"", "");
         }
 
         private static boolean containsSelectedLetter(String goal, String pieces, int pieceSelected) {

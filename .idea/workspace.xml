@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ScrambliesShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+            <state relative-caret-position="175">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#326#327#0" expanded="true" />
@@ -255,19 +255,31 @@
       <option name="project" value="LOCAL" />
       <updated>1579626194203</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Refactor - Condition extracted as method">
+      <created>1579626287247</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1579626287247</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Refactor - Condition extracted as method">
+      <created>1579626389578</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1579626389578</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Refactor - Condition extracted as method">
+      <created>1579626483681</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1579626483681</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ScrambliesShould - 2020.01.21 at 16h 24m 57s.xml">
-      <configuration name="ScrambliesShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScrambliesShould - 2020.01.21 at 16h 25m 36s.xml">
-      <configuration name="ScrambliesShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScrambliesShould_(1) - 2020.01.21 at 16h 26m 06s.xml">
-      <configuration name="ScrambliesShould (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ScrambliesShould_(1) - 2020.01.21 at 16h 26m 20s.xml">
       <configuration name="ScrambliesShould (1)" configurationId="JUnit" />
     </history-entry>
@@ -287,6 +299,15 @@
       <configuration name="ScrambliesShould (1)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ScrambliesShould_(1) - 2020.01.21 at 17h 02m 54s.xml">
+      <configuration name="ScrambliesShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrambliesShould_(1) - 2020.01.21 at 17h 04m 15s.xml">
+      <configuration name="ScrambliesShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrambliesShould_(1) - 2020.01.21 at 17h 06m 17s.xml">
+      <configuration name="ScrambliesShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrambliesShould_(1) - 2020.01.21 at 17h 07m 50s.xml">
       <configuration name="ScrambliesShould (1)" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -335,7 +356,8 @@
     <MESSAGE value="Green test - not_rearrange_when_there_are_not_needed_letters" />
     <MESSAGE value="Refactor - For replaced by while with an extra condition" />
     <MESSAGE value="Refactor - Variable renamed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor - Variable renamed" />
+    <MESSAGE value="Refactor - Condition extracted as method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor - Condition extracted as method" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -347,8 +369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ScrambliesShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        <state relative-caret-position="175">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#326#327#0" expanded="true" />
