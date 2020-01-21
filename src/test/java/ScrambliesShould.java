@@ -1,5 +1,9 @@
 import org.junit.Test;
 
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.stream.Stream;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class ScrambliesShould {
@@ -21,7 +25,12 @@ public class ScrambliesShould {
     private static class Scramblies {
         public static boolean scramble(String pieces, String goal) {
             if (areNotEnoughPieces(pieces, goal)) return false;
-            return true;
+            for (int i = 0; i<pieces.length(); i++){
+                if (goal.contains(pieces.charAt(i) + "")){
+                    goal = goal.replaceFirst(pieces.charAt(i)+"", "");
+                }
+            }
+            return goal.isEmpty();
         }
 
         private static boolean areNotEnoughPieces(String pieces, String goal) {
