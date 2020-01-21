@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66e1d151-bc18-4df8-a0be-8ac949c91057" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ScrambliesShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ScrambliesShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ScrambliesShould.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,14 +30,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ScrambliesShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+            <state relative-caret-position="289">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#122#123#0" expanded="true" />
                 <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,13 +100,6 @@
               <item name="Scramblies" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scramblies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scramblies" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -169,7 +162,43 @@
       <option name="presentableId" value="Default" />
       <updated>1579623105333</updated>
     </task>
+    <task id="LOCAL-00001" summary="Red test - not_rearrange_when_there_are_no_letter">
+      <created>1579623401909</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579623401909</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Green test - not_rearrange_when_there_are_no_letter">
+      <created>1579623437934</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579623437934</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Red test - rearrange_when_there_are_letters">
+      <created>1579623591282</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579623591282</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ScrambliesShould_not_rearrang_when_there_are_no_letter - 2020.01.21 at 16h 16m 12s.xml">
+      <configuration name="ScrambliesShould.not_rearrang_when_there_are_no_letter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrambliesShould - 2020.01.21 at 16h 16m 21s.xml">
+      <configuration name="ScrambliesShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrambliesShould - 2020.01.21 at 16h 16m 49s.xml">
+      <configuration name="ScrambliesShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrambliesShould - 2020.01.21 at 16h 19m 28s.xml">
+      <configuration name="ScrambliesShould" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -180,14 +209,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -202,6 +232,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Red test - not_rearrange_when_there_are_no_letter" />
+    <MESSAGE value="Green test - not_rearrange_when_there_are_no_letter" />
+    <MESSAGE value="Red test - rearrange_when_there_are_letters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Red test - rearrange_when_there_are_letters" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -212,14 +248,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ScrambliesShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        <state relative-caret-position="289">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#122#123#0" expanded="true" />
             <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
           </folding>
         </state>
       </provider>
