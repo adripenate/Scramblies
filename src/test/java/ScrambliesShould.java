@@ -15,8 +15,12 @@ public class ScrambliesShould {
 
     private static class Scramblies {
         public static boolean scramble(String pieces, String goal) {
-            if (pieces.length() < goal.length()) return false;
+            if (areNotEnoughPieces(pieces, goal)) return false;
             return true;
+        }
+
+        private static boolean areNotEnoughPieces(String pieces, String goal) {
+            return pieces.length() < goal.length();
         }
     }
 }
