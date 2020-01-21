@@ -25,12 +25,12 @@ public class ScrambliesShould {
     private static class Scramblies {
         public static boolean scramble(String pieces, String goal) {
             if (areNotEnoughPieces(pieces, goal)) return false;
-            int i = 0;
-            while (!goal.isEmpty() && i<pieces.length()){
-                if (goal.contains(pieces.charAt(i) + "")){
-                    goal = goal.replaceFirst(pieces.charAt(i)+"", "");
+            int pieceSelected = 0;
+            while (!goal.isEmpty() && pieceSelected<pieces.length()){
+                if (goal.contains(pieces.charAt(pieceSelected) + "")){
+                    goal = goal.replaceFirst(pieces.charAt(pieceSelected)+"", "");
                 }
-                i++;
+                pieceSelected++;
             }
             return goal.isEmpty();
         }
