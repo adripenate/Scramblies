@@ -23,12 +23,16 @@ public class ScrambliesShould {
             if (areNotEnoughPieces(pieces, goal)) return false;
             int pieceSelected = 0;
             while (!goalHasLetters(goal) && areUncheckedPieces(pieces, pieceSelected)){
-                if (goal.contains(pieces.charAt(pieceSelected) + "")){
+                if (containsSelectedLetter(goal, pieces, pieceSelected)){
                     goal = goal.replaceFirst(pieces.charAt(pieceSelected)+"", "");
                 }
                 pieceSelected++;
             }
             return goalHasLetters(goal);
+        }
+
+        private static boolean containsSelectedLetter(String goal, String pieces, int pieceSelected) {
+            return goal.contains(pieces.charAt(pieceSelected) + "");
         }
 
         private static boolean areUncheckedPieces(String pieces, int pieceSelected) {
