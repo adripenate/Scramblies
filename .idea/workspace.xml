@@ -30,16 +30,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ScrambliesShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="255">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
                 <element signature="e#326#327#0" expanded="true" />
                 <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,6 +109,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,7 +123,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ScrambliesShould">
+  <component name="RunManager" selected="JUnit.ScrambliesShould (1)">
+    <configuration name="ScrambliesShould (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Scramblies" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ScrambliesShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ScrambliesShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Scramblies" />
       <option name="PACKAGE_NAME" value="" />
@@ -146,6 +154,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ScrambliesShould (1)" />
         <item itemvalue="JUnit.ScrambliesShould" />
         <item itemvalue="JUnit.ScrambliesShould.not_rearrang_when_there_are_no_letter" />
       </list>
@@ -183,7 +192,35 @@
       <option name="project" value="LOCAL" />
       <updated>1579623591282</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Green test - rearrange_when_there_are_letters">
+      <created>1579623691500</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579623691500</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Red test - not_rearrange_when_there_not_enough_letters">
+      <created>1579623753346</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579623753346</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Green test - not_rearrange_when_there_not_enough_letters">
+      <created>1579623799813</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579623799813</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Refactor - Specific test deleted">
+      <created>1579623847641</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579623847641</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -197,6 +234,24 @@
       <configuration name="ScrambliesShould" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ScrambliesShould - 2020.01.21 at 16h 19m 28s.xml">
+      <configuration name="ScrambliesShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrambliesShould - 2020.01.21 at 16h 21m 05s.xml">
+      <configuration name="ScrambliesShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrambliesShould - 2020.01.21 at 16h 21m 20s.xml">
+      <configuration name="ScrambliesShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrambliesShould - 2020.01.21 at 16h 22m 14s.xml">
+      <configuration name="ScrambliesShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrambliesShould - 2020.01.21 at 16h 23m 07s.xml">
+      <configuration name="ScrambliesShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrambliesShould - 2020.01.21 at 16h 23m 36s.xml">
+      <configuration name="ScrambliesShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrambliesShould - 2020.01.21 at 16h 24m 57s.xml">
       <configuration name="ScrambliesShould" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -236,7 +291,11 @@
     <MESSAGE value="Red test - not_rearrange_when_there_are_no_letter" />
     <MESSAGE value="Green test - not_rearrange_when_there_are_no_letter" />
     <MESSAGE value="Red test - rearrange_when_there_are_letters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Red test - rearrange_when_there_are_letters" />
+    <MESSAGE value="Green test - rearrange_when_there_are_letters" />
+    <MESSAGE value="Red test - not_rearrange_when_there_not_enough_letters" />
+    <MESSAGE value="Green test - not_rearrange_when_there_not_enough_letters" />
+    <MESSAGE value="Refactor - Specific test deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor - Specific test deleted" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -248,16 +307,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ScrambliesShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="255">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
             <element signature="e#326#327#0" expanded="true" />
             <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
           </folding>
         </state>
       </provider>

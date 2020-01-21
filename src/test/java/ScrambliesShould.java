@@ -13,6 +13,11 @@ public class ScrambliesShould {
         assertThat(Scramblies.scramble("hol", "hello")).isFalse();
     }
 
+    @Test
+    public void not_rearrange_when_there_are_not_needed_letters() {
+        assertThat(Scramblies.scramble("holua", "hello")).isFalse();
+    }
+
     private static class Scramblies {
         public static boolean scramble(String pieces, String goal) {
             if (areNotEnoughPieces(pieces, goal)) return false;
